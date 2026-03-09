@@ -1,6 +1,7 @@
 crewai
 langchain_google_genai
 load_dotenv
+python-dotenv
 fastapi
 uvicorn
 pydantic
