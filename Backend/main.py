@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from crew import blog_crew
 from fastapi.middleware.cors import CORSMiddleware
-import litellm
+# import litellm
 
 
 os.environ["LITELLM_LOG"] = "INFO"
