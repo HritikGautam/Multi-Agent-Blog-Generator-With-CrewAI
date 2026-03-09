@@ -7,5 +7,5 @@ uvicorn
 pydantic
 crewai-tools
 langchain-groq
-litellm
+# litellm
 tiktoken==0.7.0
