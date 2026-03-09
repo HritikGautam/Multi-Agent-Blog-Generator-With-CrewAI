@@ -1,0 +1,61 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>AI Blog Generator</title>
+</head>
+
+<body>
+
+<h1>AI Blog Generator</h1>
+
+<input id="topic" placeholder="Enter blog topic"/>
+<button onclick="generateBlog()">Generate</button>
+
+<h2>Result:</h2>
+<pre id="result"></pre>
+
+<script src="script.js"></script>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CrewAI Blog Generator</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Markdown renderer -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <div class="sidebar">
+        <h2>CrewAI</h2>
+        <p>Blog Generator</p>
+    </div>
+
+    <div class="main">
+
+        <div id="chat" class="chat"></div>
+
+        <div class="input-area">
+            <input id="topic" placeholder="Ask something..." />
+            <button onclick="generateBlog()">Send</button>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

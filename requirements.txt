@@ -1,0 +1,9 @@
+crewai
+langchain_google_genai
+load_dotenv
+fastapi
+uvicorn
+pydantic
+crewai-tools
+langchain-groq
+litellm
